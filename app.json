@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "AttendanceApp",
-    "slug": "AttendanceApp",
+    "name": "Aora",
+    "slug": "Aora",
+    "scheme": "Aora",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/logo-small.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,12 +17,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/logo-small.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mudipellyshiva.Aora"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/logo-small.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cd7d1b2b-66fe-47c4-8966-b38f3faa9af7"
+      }
     }
   }
 }
